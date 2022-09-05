@@ -1,0 +1,57 @@
+.offer-box {
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  gap: 4vw;
+  width: 50%;
+  line-height: 30px;
+}
+
+.offer-box img {
+  align-self: start;
+}
+
+.offer-box .offer-container p {
+    margin-top: 10px;
+    font-weight: lighter;
+}
+
+.offer-box .offer-container h1 {
+    line-height: 45px;
+}
+
+.offer-box .offer-container span p {
+    font-weight: bold;
+}
+
+.offer-box .offer-container .offer-button {
+    display: flex;
+    margin-top: 30px;
+    gap: 5vw;
+    align-items: center;
+}
+
+.offer-box .offer-container .offer-button button {
+    background-color: #286EF1;
+    border: none;
+    color: white;
+    padding: 10px;
+}
+
+.offer-box .offer-container .offer-button p {
+    color: #286EF1;
+    font-weight: bold;
+}
+
+.out p {
+    position: absolute;
+    top: 25%;
+    /* left: 50%; */
+    transform: translate(-50%, -50%);
+    left: 65%;
+    z-index: 1;
+    font-weight: bold;
+}

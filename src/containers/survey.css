@@ -1,0 +1,85 @@
+#survey-bg{
+    background-color: #f9f9f9;
+    font-family: system-ui;
+    padding-top:25px;
+    padding-bottom:5%;
+}
+.survey{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.survey h2{
+    font-size: 1rem;
+}
+.survey div.cancellationSurvey{
+    display:flex;
+    align-items:center;
+
+}
+hr{
+    opacity:0.5;
+    margin:20px 0px;
+}
+.survey div.cancellationSurvey div {
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    margin-right: 2%;
+}
+.survey div.cancellationSurvey h2{
+    margin:0px;
+}
+div.content-card{
+    background-color:white;
+    padding: 30px 15% ;
+
+}
+div.content-card h2{
+    font-size:1.2rem;
+}
+div.content-card p{
+    font-size:0.7rem;
+    color:rgb(101, 98, 98);
+}
+div.card-inputs div {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border: 1px solid #ccc;
+    margin: 25px 0px;
+    border-radius: 100px;
+    padding: 17px 5px;
+}
+div.card-inputs div h4{
+    margin: 0;
+    font-size: 0.9rem;
+    color:rgb(46, 44, 44);
+}
+input[type=radio] {
+    border: 0px;
+    width:20px;
+    height: 20px;
+    margin: 0px 10px;
+}
+.card-warning {
+    background-color: #FEECF5;
+    display: flex;
+    align-items: flex-start;
+    padding: 16px 10px;
+}
+.card-warning p{
+    margin: 0;
+}
+.card-warning .warning-icon{
+    background-color: #f53c3c;
+    border-radius: 50%;
+
+}
+.card-warning .warning-icon p{
+    width:25px;
+    height:25px;
+    margin:0;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
